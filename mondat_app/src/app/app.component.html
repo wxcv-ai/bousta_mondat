@@ -1,0 +1,79 @@
+
+
+
+<div class="mondat_page" >
+
+  <img src="assets\laposte.jpg" class ="logo_poste">
+  <div class="not_compelet"> {{show_off_string}}  </div>
+  <div class="details">
+    <div class="Sender">
+      <div class="sender_text">
+        Expediteur :
+      </div>
+      <div class="data_send">
+        <mat-form-field class="montant_sender" appearance="fill"  color ="primary">
+          <mat-label>Montant</mat-label>
+          <input matInput placeholder="Ex.  248" #montant_source (keyup)="getmontant_source(montant_source.value)" >
+        </mat-form-field>
+      </div>
+      <div class="data_send">
+        <mat-form-field class="CIN_sender" appearance="fill"  color ="primary">
+          <mat-label>CIN</mat-label>
+          <input matInput placeholder="Ex.  07142896"  #cin_source (keyup)="getcin_source(cin_source.value)">
+        </mat-form-field>
+      </div>
+      <div class="data_send">
+        <mat-form-field class="nom_sender" appearance="fill"  color ="primary">
+          <mat-label>Nom</mat-label>
+          <input matInput placeholder="Ex. flen" #nom_source (keyup)="getnom_source(nom_source.value)" >
+        </mat-form-field>
+      </div>
+      <div class="data_send">
+        <mat-form-field class="prenom_sender" appearance="fill"  color ="primary">
+          <mat-label>Prenom</mat-label>
+          <input matInput placeholder="Ex. ben flen" #prenom_source (keyup)="getprenom_source(prenom_source.value)" >
+        </mat-form-field>
+      </div>
+  
+  
+    </div>
+    <div class="Reveiver">
+      <div class="reveiver_text">
+        Destinataire :
+      </div>
+  
+      <div class="data_send">
+        <mat-form-field class="nom_reveiver" appearance="fill"  color ="primary">
+          <mat-label>Nom</mat-label>
+          <input matInput placeholder="Ex. flen" #nom_receiver (keyup)="getnom_receiver(nom_receiver.value)" >
+        </mat-form-field>
+      </div>
+      <div class="data_send">
+        <mat-form-field class="prenom_reveiver" appearance="fill"  color ="primary">
+          <mat-label>Prenom</mat-label>
+          <input matInput placeholder="Ex. ben flen" #getprenom (keyup)="getprenom_receiver(getprenom.value)" >
+        </mat-form-field>
+      </div>
+      <div class="data_send">
+        <mat-form-field class="phone_reveiver" appearance="fill"  color ="primary">
+          <mat-label>GSM</mat-label>
+          <input matInput placeholder="Ex. 21568974"  #gsm_receiver (keyup)="getgsm_receiver(gsm_receiver.value)">
+        </mat-form-field>
+      </div>
+  
+    </div>
+  
+
+  
+  </div>
+  <div class="submit_button">
+    <button mat-raised-button class = "exact_btn"  color="primary" (click)="submit()">Send</button>
+  </div>
+</div>
+
+
+<div class="mondat_page" >
+
+
+
+<router-outlet></router-outlet>

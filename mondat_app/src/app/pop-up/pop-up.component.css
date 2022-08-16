@@ -1,0 +1,40 @@
+
+
+.logo_poste{
+    width : 100px;
+    height: 100px;
+    margin-left: 288px;
+}
+.expediteur{
+    color:#dec73e;
+    font-size: 20px;
+}
+.destinateur{
+
+    color:#0d0847;
+    font-size: 20px;
+
+}
+
+.PopupPage{
+    width : 650px;
+    height : 550px;
+}
+
+.confirm_button{
+    margin-top: 60px;
+    margin-left: 180px;
+    margin-bottom: 10px;
+}
+
+.confirm_btn{
+    width: 280px;
+    background-color: yellow;
+    color:black
+
+}
+.confirm_btn:hover{
+    background-color: #0d0847;
+    color: white;
+  
+  }

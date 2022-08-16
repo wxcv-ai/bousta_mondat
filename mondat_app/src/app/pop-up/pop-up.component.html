@@ -1,0 +1,19 @@
+
+<div class="PopupPage">
+    <img src="assets\laposte.jpg" class="logo_poste">
+    <h2  class="expediteur"> Expediteur </h2>
+    <h2  class="cin">  CIN : {{cin_source}} </h2>
+    <h2  class="nom_complet_send">  Nom complet : {{nom_source}} {{prenom_source}} </h2>
+    <h2 class="montant">  Montant : {{montant_source}} </h2>
+    
+    <h2  class="destinateur"> Destinateur </h2>
+    <h2  class="nom_complet_recv"> Nom complet :{{nom_receiver}}  {{prenom_receiver}} </h2>
+    <h2  class="gsm_recv"> Telephone :  {{gsm_receiver}} </h2>
+    
+    <div class="confirm_button" >
+        <button mat-raised-button class = "confirm_btn"  color="primary"  (click)="OnConfirm2()">Confirm</button>
+    </div>
+
+
+</div>
+

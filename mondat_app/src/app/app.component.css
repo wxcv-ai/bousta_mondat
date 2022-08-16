@@ -1,0 +1,135 @@
+
+.mondat_page{
+  display: block;
+}
+.logo_poste{
+  width : 180px;
+  height: 160px;
+  margin-left: 580px;
+}
+.not_compelet{
+  color: red;
+  margin-left: 420px;
+  margin-top: 6px;
+}
+.details{
+  display: flex;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+.Sender{
+  display: block;
+  width: 60%;
+}
+.sender_text{
+  font-size: 24px;
+  color:#dec73e;
+
+} 
+.reveiver_text{
+  font-size: 24px;
+  color:#0d0847;
+}
+.data_send{
+  margin-top: 14px;
+}
+.montant_sender {
+  width: 60%;
+
+}
+.CIN_sender {
+  width: 60%;
+
+}
+.nom_sender {
+  width: 60%;
+
+}
+.prenom_sender {
+  width: 60%;
+
+}
+.phone_sender {
+  width: 60%;
+
+}
+.Address_sender {
+  width: 60%;
+
+}
+
+
+.Reveiver{
+  display: block;
+  width: 60%;
+  margin-top: 000px;
+}
+
+.data_reveiver{
+  margin-top: 14px;
+}
+.montant_reveiver {
+  width: 60%;
+
+}
+.CIN_reveiver {
+  width: 60%;
+
+}
+.nom_reveiver {
+  width: 60%;
+
+}
+.prenom_reveiver {
+  width: 60%;
+
+}
+.phone_reveiver {
+  width: 60%;
+
+}
+.Address_reveiver {
+  width: 60%;
+
+}
+
+
+.exact_btn{
+
+  width: 380px;
+  height: 46px;
+  color:black ;
+  background-color: #dec73e;
+
+}
+.exact_btn:hover{
+  background-color: #0d0847;
+  color: white;
+
+}
+.submit_button{
+
+  margin-top: 10px;
+  margin-left: 500px;
+}
+
+.example-form2 {
+    min-width: 150px;
+    max-width: 200px;
+    width: 100%;
+    color:#dec73e;
+  }
+  
+  .example-full-width2 {
+    width: 100%;
+  }
+
+
+  
+
+  .example-button-row {
+    display: table-cell;
+    width: 490px;
+  }
+  
+
