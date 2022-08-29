@@ -12,6 +12,7 @@ import { PopUpComponent } from './pop-up/pop-up.component';
 export class AppComponent {
   title = 'mondat_app';
   constructor(private dialogRef : MatDialog){}
+  ref_payment="" ;
 
   montant_source="" ;
   cin_source="" ;
@@ -29,6 +30,10 @@ export class AppComponent {
 
   show_off_string = "";
 
+  getref_payment(val:string){
+
+    this.ref_payment = val ;
+  }
   getmontant_source(val:string){
 
     this.montant_source = val ;
@@ -70,8 +75,8 @@ export class AppComponent {
 
         nom_receiver : this.nom_receiver,
         prenom_receiver : this.prenom_receiver,
-        gsm_receiver : this.gsm_receiver,
-        
+        gsm_receiver : this.gsm_receiver
+
       }
     });
   }
@@ -89,8 +94,9 @@ export class AppComponent {
 
       (this.nom_receiver).length != 0 &&
       (this.prenom_receiver).length != 0 &&
-      (this.gsm_receiver).length != 0 
-    
+      (this.gsm_receiver).length != 0 &&
+      (this.ref_payment).length != 0 
+      
     
     ){
       this.show_off_string = "" ;
