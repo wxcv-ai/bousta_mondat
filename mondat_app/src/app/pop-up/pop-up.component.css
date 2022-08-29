@@ -5,6 +5,11 @@
     height: 100px;
     margin-left: 288px;
 }
+
+.date{
+    margin-left: 50%;
+    color : orange ;
+}
 .expediteur{
     color:#dec73e;
     font-size: 20px;
