@@ -15,11 +15,16 @@
 .details{
   display: flex;
   margin-top: 30px;
-  margin-left: 100px;
+  margin-left: 10px;
 }
 .Sender{
   display: block;
-  width: 60%;
+  width: 33.33%;
+}
+
+.mondat{
+  width: 26.33%;
+
 }
 .sender_text{
   font-size: 24px;
@@ -30,8 +35,15 @@
   font-size: 24px;
   color:#0d0847;
 }
+.mondat_text{
+  font-size: 24px;
+  color:#0d0847;
+
+}
+
 .data_send{
   margin-top: 14px;
+  
 }
 .montant_sender {
   width: 60%;
@@ -61,7 +73,7 @@
 
 .Reveiver{
   display: block;
-  width: 60%;
+  width: 33.33%;
   margin-top: 000px;
 }
 
@@ -69,7 +81,7 @@
   margin-top: 14px;
 }
 .montant_reveiver {
-  width: 60%;
+  width: 50px;
 
 }
 .CIN_reveiver {
@@ -109,8 +121,8 @@
 }
 .submit_button{
 
-  margin-top: 10px;
-  margin-left: 500px;
+  margin-top: 50px;
+  margin-left: 38%;
 }
 
 .example-form2 {
