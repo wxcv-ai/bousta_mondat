@@ -6,9 +6,9 @@
   <img src="assets\laposte.jpg" class ="logo_poste">
   <div class="not_compelet"> {{show_off_string}}  </div>
   <div class="details">
-    <div class="Sender">
-      <div class="sender_text">
-        Expediteur :
+    <div class="mondat"> 
+      <div class="mondat_text">
+        Mondat :
       </div>
       <div class="data_send">
         <mat-form-field class="montant_sender" appearance="fill"  color ="primary">
@@ -16,6 +16,17 @@
           <input matInput placeholder="Ex.  248" #montant_source (keyup)="getmontant_source(montant_source.value)" >
         </mat-form-field>
       </div>
+
+
+
+  
+  </div>
+
+    <div class="Sender">
+      <div class="sender_text">
+        Expediteur :
+      </div>
+
       <div class="data_send">
         <mat-form-field class="CIN_sender" appearance="fill"  color ="primary">
           <mat-label>CIN</mat-label>
@@ -64,13 +75,12 @@
     </div>
   
 
-  
-  </div>
+
+
+</div>
   <div class="submit_button">
     <button mat-raised-button class = "exact_btn"  color="primary" (click)="submit()">Send</button>
   </div>
-</div>
-
 
 <div class="mondat_page" >
 
