@@ -94,9 +94,7 @@ export class AppComponent {
 
       (this.nom_receiver).length != 0 &&
       (this.prenom_receiver).length != 0 &&
-      (this.gsm_receiver).length != 0 &&
-      (this.ref_payment).length != 0 
-      
+      (this.gsm_receiver).length != 0       
     
     ){
       this.show_off_string = "" ;
